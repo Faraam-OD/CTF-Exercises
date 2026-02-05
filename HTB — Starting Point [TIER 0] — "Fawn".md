@@ -72,13 +72,13 @@ Now, we exit the FTP access simply with "**exit**", and we will check whether th
 *(2>/dev/null is used to avoid search results for which permission is not granted)*
 
 <p align="center">
-    <img src="https://github.com/user-attachments/assets/06bf5fed-612a-4fb8-946a-d147d31762da" width="600" />
+    <img src="https://github.com/user-attachments/assets/06bf5fed-612a-4fb8-946a-d147d31762da" width="400" />
 </p>
 
 Okay! He's simply in the **/home** directory. Now, we can finally concatenate our file! :
 
 <p align="center">
-    <img src="https://github.com/user-attachments/assets/b11e7fe4-104b-4e0b-92ac-b55aac40a068" width="600" />
+    <img src="https://github.com/user-attachments/assets/b11e7fe4-104b-4e0b-92ac-b55aac40a068" width="400" />
 </p>
 
 Here’s the flag!
