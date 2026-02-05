@@ -40,7 +40,7 @@ So, the commande will be this : **ftp -a 10.129.1.14**
 </p>
 
 ## 4. Exploitation
-Now entered, the first things we can do, is a simple linux commande ; "ls" to show whether files or folders are present there.
+Now entered, the first things we can do, is a simple linux command ; "**ls**" to show whether files or folders are present there.
 
 <p align="center">
     <img src="https://github.com/user-attachments/assets/e4e7c3b6-64f1-4e6d-b5d5-5d24b322f1ad" width="600" />
