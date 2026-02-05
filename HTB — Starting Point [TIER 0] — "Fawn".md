@@ -36,7 +36,7 @@ For knowing what options uses, we can write "**ftp -?**". And one option is part
 So, the commande will be this : **ftp -a 10.129.1.14**
 
 <p align="center">
-    <img src="https://github.com/user-attachments/assets/c7cdd0f6-b3bc-4535-9f9c-88216ae91009" width="600" />
+    <img src="https://github.com/user-attachments/assets/c7cdd0f6-b3bc-4535-9f9c-88216ae91009" width="400" />
 </p>
 
 ## 4. Exploitation
