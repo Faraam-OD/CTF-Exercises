@@ -60,6 +60,8 @@ And as can be seen above, the flag was located in the James.P directory. To do t
 
 ## 5. Data recovery
 
+Now, all we have to do is find our downloaded file on our desktop simply by using the 'ls' command. Very often, the downloaded file is automatically placed in the "Desktop" folder.
+
 <p align="center">
     <img src="https://github.com/user-attachments/assets/ab756fe3-a639-42b3-8d75-95550548aa9e" width="600" />
 </p>
