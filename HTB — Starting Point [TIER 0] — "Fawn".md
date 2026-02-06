@@ -48,7 +48,7 @@ Now entered, the first things we can do, is a simple linux command ; `ls` to sho
 
 Okay! We can see that the flag is there already! But that's all? We just have to concatenate (cat) the file and we'll have the flag!…
 
-But nah, on FTP, cat doesn't exist. So we need to know how to open the content of this file. For this, we simply gonna use the `help` command to know what and which command write to obtain what we want.
+But nah, on FTP, the `cat` command doesn't exist. So we need to know how to open the content of this file. For this, we simply gonna use the `help` command to know what and which command write to obtain what we want.
 
 So:
 
@@ -67,7 +67,7 @@ Let’s see!
 ## 5. Data recovery
 Find and open the content of the flag in our machine
 
-Now, we exit the FTP access simply with `exit*`, and we will check whether the transferred file is on our machine and, if so, open it. To easily locate where the file is located, we just need to run the following `find` command : `find / -name flag.txt 2>/dev/null`
+Now, we exit the FTP access simply with `exit`, and we will check whether the transferred file is on our machine and, if so, open it. To easily locate where the file is located, we just need to run the following `find` command : `find / -name flag.txt 2>/dev/null`
 
 *(2>/dev/null is used to avoid search results for which permission is not granted)*
 
