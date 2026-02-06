@@ -48,13 +48,13 @@ That's gives on the screen :
 Okay, we are connected to the Redis interface. What we can do now is retrieve information about the Redis server. To do this, simply entering the command `info` will give us our answers :
 
 <p align="center">
-    <img src="https://github.com/user-attachments/assets/7cb74819-c95e-412a-a719-eb83c16e2c51" width="600" />
+    <img src="https://github.com/user-attachments/assets/7cb74819-c95e-412a-a719-eb83c16e2c51" width="400" />
 </p>
 
 The information shared is lengthy; we have details on **memory**, **persistence**, and other statistics. So I'm only going to show the section that interests us here. And that's the last section, called "**Keyspace**".
 
 <p align="center">
-    <img src="https://github.com/user-attachments/assets/343f939f-9c20-4c1f-87d4-1c0e1d2f4880" width="600" />
+    <img src="https://github.com/user-attachments/assets/343f939f-9c20-4c1f-87d4-1c0e1d2f4880" width="400" />
 </p>
 
 ## 4. Exploitation
@@ -65,7 +65,7 @@ Now we need to see how to display these four keys. After a quick Google search, 
 This listed all the keys present on the server.
 
 <p align="center">
-    <img src="https://github.com/user-attachments/assets/f8742ed5-d830-4c6a-80b2-abbcfee496e3" width="600" />
+    <img src="https://github.com/user-attachments/assets/f8742ed5-d830-4c6a-80b2-abbcfee496e3" width="400" />
 </p>
 
 ## 5. Data recovery
@@ -74,7 +74,7 @@ As we can see, one of the keys contains the flag we are looking for to validate 
 * `get "[key_name]"`
 
 <p align="center">
-    <img src="https://github.com/user-attachments/assets/0554f158-f36f-4181-adab-ea024fedf1b8" width="600" />
+    <img src="https://github.com/user-attachments/assets/0554f158-f36f-4181-adab-ea024fedf1b8" width="400" />
 </p>
 
 And that's it! We have recovered the flag and validated the exercise.
