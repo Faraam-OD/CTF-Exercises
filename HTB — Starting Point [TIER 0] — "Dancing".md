@@ -37,7 +37,7 @@ To access the SMB connection, we need to use the **smbclient** command. By simpl
 
 We can't see well on the picture, but the command we are interested in here is the one boxed in red, namely the **-L** command for "**list**".
 
-So, to access the content, we will use the following command; (and as you can see, we used the "**-N**" option. This option makes the SMB protocol vulnerable because it allows you to connect to the service under “**Anonymous**” status, enabling you to connect **without a password**.)
+So, to access the content, we will use the following command; (and as you can see, we used the "**-N**" option. This option makes the SMB protocol vulnerable because it allows you to connect to the service under "**Anonymous**" status, enabling you to connect **without a password**.)
 
 ## 4. Exploitation
 But now, how do we navigate between those files to know where is hiding our flag? To do this, we had to do some research on SMB syntax, particularly regarding navigation. To do this, simply type: **smbclient \\\[target_IP]\\[directory]**
