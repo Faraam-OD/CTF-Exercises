@@ -39,6 +39,10 @@ We can't see well on the picture, but the command we are interested in here is t
 
 So, to access the content, we will use the following command; (and as you can see, we used the "**-N**" option. This option makes the SMB protocol vulnerable because it allows you to connect to the service under "**Anonymous**" status, enabling you to connect **without a password**.)
 
+<p align="center">
+    <img src="https://github.com/user-attachments/assets/b32c902c-4b4c-4ee2-b64b-4f4acc9cfcfb" width="600" />
+</p>
+
 ## 4. Exploitation
 But now, how do we navigate between those files to know where is hiding our flag? To do this, we had to do some research on SMB syntax, particularly regarding navigation. To do this, simply type: **smbclient \\\[target_IP]\\[directory]**
 
@@ -47,22 +51,17 @@ And we must do this on each of the directories present in order to find the one 
 As we can see in the screenshot, the first three folders are inaccessible. Unlike the fourth one...
 
 <p align="center">
-    <img src="https://github.com/user-attachments/assets/b32c902c-4b4c-4ee2-b64b-4f4acc9cfcfb" width="600" />
+    <img src="https://github.com/user-attachments/assets/1712893f-62a2-4313-a7e1-2f80244cfc4b" width="600" />
 </p>
 
 So we finally have access to the directory! We have Amy.J and James.P.
 
+And as can be seen above, the flag was located in the James.P directory. To do this, as indicated, we had to use the "**get**" command to transfer the file to our machine. Now, the last thing we need to do is open the file on our machine to find out the flag.
+
 ## 5. Data recovery
-Let's see which one is hiding the flag…
-
-<p align="center">
-    <img src="https://github.com/user-attachments/assets/1712893f-62a2-4313-a7e1-2f80244cfc4b" width="600" />
-</p>
-
-And here it is! As can be seen above, the flag was located in the James.P directory. To do this, as indicated, we had to use the "get" command to transfer the file to our machine. Now, the last thing we need to do, is to open the file on our machine and we're are finished!
 
 <p align="center">
     <img src="https://github.com/user-attachments/assets/ab756fe3-a639-42b3-8d75-95550548aa9e" width="600" />
 </p>
 
-Here's the flag!
+Here’s the flag!
