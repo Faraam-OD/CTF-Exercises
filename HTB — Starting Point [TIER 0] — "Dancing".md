@@ -44,7 +44,7 @@ So, to access the content, we will use the following command; (and as you can se
 </p>
 
 ## 4. Exploitation
-But now, how do we navigate between those files to know where is hiding our flag? To do this, we had to do some research on SMB syntax, particularly regarding navigation. To do this, simply type: `smbclient \\\[target_IP]\\[directory]`
+But now, how do we navigate between those files to know where is hiding our flag? To do this, we had to do some research on SMB syntax, particularly regarding navigation. To do this, simply type: `smbclient \\\\[target_IP]\\[directory]`
 
 And we must do this on each of the directories present in order to find the one that contains files.
 
