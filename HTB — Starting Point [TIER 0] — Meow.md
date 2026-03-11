@@ -1,4 +1,4 @@
-# HTB — Starting Point [TIER 0] — "Meow"
+# HTB — Starting Point [TIER 0] — Meow
 
 `made on October 27, 2025`
 
