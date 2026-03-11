@@ -1,4 +1,4 @@
-# HTB — Starting Point [TIER 0] — "Dancing"
+# HTB — Starting Point [TIER 0] — Dancing
 
 `made on December 21, 2025`
 
