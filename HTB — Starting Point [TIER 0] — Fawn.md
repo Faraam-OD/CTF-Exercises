@@ -1,4 +1,4 @@
-# HTB — Starting Point [TIER 0] — "Fawn"
+# HTB — Starting Point [TIER 0] — Fawn
 
 `made on November 30, 2025`
 
