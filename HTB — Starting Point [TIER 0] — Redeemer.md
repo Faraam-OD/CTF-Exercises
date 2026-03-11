@@ -1,4 +1,4 @@
-# HTB — Starting Point [TIER 0] — "Redeemer"
+# HTB — Starting Point [TIER 0] — Redeemer
 
 `made on February 3, 2025`
 
